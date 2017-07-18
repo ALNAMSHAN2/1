@@ -40,23 +40,44 @@ body
    height: 126px;
    z-index: 1;
 }
-@media only screen and (max-width: 969px)
+@media only screen and (min-width: 480px) and (max-width: 969px)
 {
 #wb_Image1
 {
    left: 0px;
    top: 0px;
-   width: 400px;
-   height: 169px;
+   width: 330px;
+   height: 176px;
    visibility: visible;
    display: inline;
 }
 #Html1
 {
    left: 0px;
-   top: 169px;
-   width: 400px;
+   top: 176px;
+   width: 330px;
    height: 132px;
+   visibility: visible;
+   display: inline;
+}
+}
+@media only screen and (max-width: 479px)
+{
+#wb_Image1
+{
+   left: 0px;
+   top: 0px;
+   width: 320px;
+   height: 209px;
+   visibility: visible;
+   display: inline;
+}
+#Html1
+{
+   left: 0px;
+   top: 209px;
+   width: 320px;
+   height: 118px;
    visibility: visible;
    display: inline;
 }
